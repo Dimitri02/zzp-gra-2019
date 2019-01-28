@@ -92,7 +92,7 @@ int main(int argc, char *args[]) {
   // przygotowujemy okienko SDL
   sdl_objects_t sdl_objects;
   SDL_Init(SDL_INIT_EVERYTHING);
-  sdl_objects.window = SDL_CreateWindow("Gra nasza", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 320*3, 240*3, SDL_WINDOW_SHOWN);
+  sdl_objects.window = SDL_CreateWindow("Szybcy inaczej", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 320*3, 240*3, SDL_WINDOW_SHOWN);
   sdl_objects.renderer = SDL_CreateRenderer(sdl_objects.window, -1, SDL_RENDERER_ACCELERATED);
   SDL_RenderSetScale(sdl_objects.renderer, 3,3);
 
