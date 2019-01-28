@@ -81,9 +81,9 @@ public:
     next_game_state = next_game_state_;
     sdl_objects = sdl_objects_;
     x = 10;
-    y = 10;
-    dx = 1;
-    dy = 2;
+    y = 100;
+    dx = 2;
+    dy = 0;
   }
 };
 
