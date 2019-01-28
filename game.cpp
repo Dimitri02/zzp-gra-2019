@@ -65,7 +65,7 @@ public:
     auto renderer = sdl_objects.renderer;
     // SDL_SetRenderDrawColor( renderer, 0, 0, 0, 0 );
     // SDL_RenderClear( renderer );
-    SDL_SetRenderDrawColor(renderer, 255, (sin((double)x/10.0)*127+128), (sin((double)y/10.0)*127+128), 255);
+    SDL_SetRenderDrawColor(renderer, 23, (sin((double)x/10.0)*127+128), (sin((double)y/10.0)*127+128), 51);
     SDL_RenderDrawPoint(renderer, x, y);
     SDL_RenderPresent(renderer);
   }
